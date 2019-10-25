@@ -1,0 +1,257 @@
+*, ul{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+                 /* START HeaderCut */
+.header .topheader .headercut{
+    position: relative;
+    height: 30px;
+    padding-top: 10px;
+}
+.header .topheader .headercut .shourtcut{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    right: 160;
+}
+.header .topheader .headercut .shourtcut .cut{
+    padding: 0px 20px;
+}
+.header .topheader .headercut .shourtcut .cut a{
+    color: black;
+    font-size: 14px;
+}
+                /* START HeaderMenu */
+.header .topheader .headermenu .logo{
+    padding: 0 90px;
+}
+.header .topheader .headermenu .list-items{
+    display: inline-block;
+    border: 1px solid orange;
+    text-align: center;
+    border-radius: 20px;
+    padding: 1px 5px;
+    margin-top: 15px;
+}
+.header .topheader .headermenu .list-items .items{
+    width: 45px;
+    border: 0;
+    height: 22;
+    margin: 0 10px;
+}
+.header .topheader .headermenu .list-items .search-bar{
+    width: 380px;
+    border: 0;
+    margin-left: -5px;
+    outline: none;
+    padding: 2px 2px;
+}
+.header .topheader .headermenu .list-items .fa-search{
+    color: orange;
+    display: inline-block;
+    font-size: 22px;
+    padding: 5px 5px;
+}
+.header .topheader .headermenu .sign{
+    font-size: 14px;
+    padding: 0 20px;
+    position: relative;
+}
+.header .topheader .headermenu .sign .fa-user{
+    font-size: 20px;
+}
+/*  Start Sign In  */
+.header .topheader .headermenu .sign .login{
+    display: none;
+    background-color: white;
+    height: 240px;
+    width: 250px;
+    position: absolute;
+    left: 0;
+    top: 20;
+    padding: 10px 10px;
+    color: black;
+    z-index: 1;
+}
+.header .topheader .headermenu .sign .login form{
+    text-align: center;
+    margin: 10px 0;
+}
+.header .topheader .headermenu .sign .login input{
+    border: 1px solid orange;
+    width: 80%;
+    padding: 10px;
+    margin:5px 0 ;
+}
+.header .topheader .headermenu .sign .login h5{
+    font-weight: normal;
+    font-size: 16px;
+}
+.header .topheader .headermenu .sign .login .line{
+    margin-top: 10px;
+    padding: 10px 0;
+    border-top: 1px solid gray;
+}
+.header .topheader .headermenu .sign .login .sign-in{
+    width: 100%;
+    height: 30;
+    background-color: orange;
+    color: white;
+    border: 0px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.header .topheader .headermenu .sign .login .line .fa-facebook{
+    font-size: 25px;
+    background: white;
+    color: blue;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+.header .topheader .headermenu .sign .login .line .fa-google{
+    font-size: 24px;
+    background: white;
+    color:orange;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+                /*  End Sign In */
+.header .topheader .headermenu .favorites{
+    font-size: 14px;
+    margin: 0 20px;
+}
+.header .topheader .headermenu .favorites .fa-heart{
+    font-size: 20px;
+}
+.header .topheader .headermenu .cart{
+    font-size: 14px;
+    margin: 0 20px;
+}
+.header .topheader .headermenu .cart .fa-shopping-cart{
+    font-size: 20px;
+}
+.header .topheader .headermenu a{
+    text-decoration: none;
+    color: black;
+}
+.header .topheader .headermenu a:hover{
+    color: orange;
+    font-weight: bold;
+    
+}
+                /*  END TOP_HEADER */
+/*  Start Bootom Header */
+.header .botheader .menu-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.header .botheader .menu-list .list{
+    margin: 10px 50px;
+    position: relative;
+}
+.header .botheader .menu-list .list a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+.header .botheader .menu-list .list .line:hover{
+    border-bottom: 5px solid orange;
+}
+.header .botheader .menu-list .list .fa-bars{
+    font-size: 17px;
+    margin-right: 5px;
+    color: orange;
+}
+.header .botheader .category{
+    display: none;
+    position: absolute;
+    transform: translateY(-10px);
+    left: 330;
+    background: white;
+    font-size: 14px;
+}
+.header .botheader .category .items{
+    list-style: none;
+    display: inline-block; 
+}
+.header .botheader .category .item{
+    padding: 5px 5px;
+}
+.header .botheader .category .item:hover{
+    background-color: #3a20b6;
+    color: white;
+    cursor: pointer;
+}
+
+/* Start Body */
+
+.body{
+    background: #3a20b6;
+}
+.body .container{
+    padding: 10px 10px;
+    margin-top: 20px;
+    background: rgb(111, 163, 255);
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: rgb(211, 242, 255) 0px 0px 20px inset, rgb(211, 242, 255) 0px 0px 20px;
+}
+.body .container .hot-pick{
+    text-align: center;
+    padding: 30px 0;
+    color: orange;
+    font-weight: 500;
+    font-size: 40px;
+}
+.body .container .goodsfloor{
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.body .container .goodsfloor .good{
+    display: flex;
+    background: white;
+    margin: 5px 10px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    width: 50%;
+    transition: 0.7s;
+}
+.body .container .goodsfloor .good:hover{
+    transform: translateY(-10px);
+}
+.body .container .goodsfloor .good .detailes{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+.body .container .goodsfloor .good .detailes .titel{
+    font-weight: 500;
+    font-size: 18;
+}
+.body .container .goodsfloor .good .detailes span{
+    color: gray;
+}
+.body .container .goodsfloor .good .detailes .price{
+    width: 100%;
+    height: 40px;
+    background: orange;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.body .container .goodsfloor .good .detailes .price:hover{
+    background: orangered;  
+}
+.body .container .goodsfloor .good .detailes .code{
+    width: 100%;
+    height: 40px;
+    border: 1px dashed orangered;
+    background: transparent;
+    color: red;
+}
